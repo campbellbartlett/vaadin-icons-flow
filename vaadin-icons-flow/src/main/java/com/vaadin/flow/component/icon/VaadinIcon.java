@@ -25,7 +25,7 @@ package com.vaadin.flow.component.icon;
  * @author Vaadin Ltd
  *
  */
-public enum VaadinIcon {
+public enum VaadinIcon implements HasIconFactory {
 
     ABACUS,
     ABSOLUTE_POSITION,
