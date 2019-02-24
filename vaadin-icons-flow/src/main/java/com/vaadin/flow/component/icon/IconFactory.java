@@ -7,6 +7,6 @@ import java.io.Serializable;
  * instantiation of the Icon to it's subclass
  */
 @FunctionalInterface
-public interface HasIconFactory extends Serializable {
+public interface IconFactory extends Serializable {
     Icon create();
 }
